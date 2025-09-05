@@ -50,7 +50,7 @@ app.use("/api/users", userRoutes);
 app.use("/api/jobs", jobRoutes);
 app.use("/api/admin", adminRoutes);
 app.use("/api/upload", uploadRoutes);
-app.use("/applications", applicationRoutes);
+app.use("/api/applications", applicationRoutes);
 
 // ✅ Health Check Route
 app.get("/api/test", (req, res) => {
